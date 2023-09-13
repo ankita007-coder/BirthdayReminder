@@ -25,7 +25,7 @@ The Birthday Reminder Website is a React.js application designed to help users k
 
 ## Demo
 
-You can see a live demo of the Birthday Reminder Website [here](birthdayyy-reminder.netlify.app).
+You can see a live demo of the Birthday Reminder Website [here](https://birthday-budd.netlify.app/).
 
 ## Installation
 
