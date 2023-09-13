@@ -26,11 +26,23 @@ const App = () => {
  
   return <main> 
      <div className="container">
-     <h3>{persons.length} Birthdays Today</h3>
-    <PeopleList persons={persons}/>
+     
+     {
+      persons.length>0 ?(
+        <>
+        <h3>{persons.length} Birthdays Today</h3>
+        <PeopleList persons={persons}/>
     
-     <button className="btn btn-block"
-             onClick={()=>setPersons([])}>clear all</button>
+    <button className="btn btn-block"
+            onClick={()=>setPersons([])}>clear all</button>
+        </>
+        
+      ):
+      <>
+      <h3> No Birthdays today!!</h3>
+      </>
+     }
+    
               </div>
   </main>
  ;

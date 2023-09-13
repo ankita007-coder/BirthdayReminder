@@ -94,7 +94,7 @@ export default [
     id: 14,
     name: 'Mia Rodriguez',
     age: 31,
-    dob: '1992/09/13', // September 17, 1992
+    dob: '1992/09/11', // September 17, 1992
     image: 'https://www.course-api.com/images/people/person-1.jpeg',
   },
   {
@@ -108,7 +108,7 @@ export default [
     id: 16,
     name: 'Ava Wilson',
     age: 34,
-    dob: '1996/09/13', // September 13, 1996
+    dob: '1996/09/14', // September 13, 1996
     image: 'https://www.course-api.com/images/people/person-1.jpeg',
   },
   {
